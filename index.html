@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AFNS Hospital | Corporate Virtual Tour</title>
+    <!-- Corporate Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Topbar (Corporate style) -->
+    <div class="top-bar">
+        <div class="container top-bar-inner">
+            <div class="contact-info">
+                <span><i class="fas fa-phone"></i> +1 (800) 123-4567</span>
+                <span><i class="fas fa-envelope"></i> contact@afnshospital.com</span>
+            </div>
+            <div class="quick-links">
+                <a href="#">Patient Portal</a>
+                <a href="#">Careers</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navbar -->
+    <header class="navbar">
+        <div class="container nav-inner">
+            <div class="logo">
+                <i class="fas fa-plus-square"></i> AFNS Hospital
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#departments">Departments</a></li>
+                <li><a href="#tour">Virtual Tour</a></li>
+                <li><a href="#contact" class="btn-appointment">Book Appointment</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content container">
+            <h1>Excellence in Healthcare</h1>
+            <p>Welcome to AFNS Hospital. Explore our world-class facilities and departments through our interactive virtual tour.</p>
+            <a href="#tour" class="btn-primary">Explore Virtual Tour</a>
+        </div>
+    </section>
+
+    <!-- Departments Overview -->
+    <section id="departments" class="departments bg-light">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Departments</h2>
+                <div class="divider"></div>
+                <p>Providing comprehensive care with state-of-the-art technology.</p>
+            </div>
+            <div class="grid-3">
+                <div class="card">
+                    <i class="fas fa-heartbeat"></i>
+                    <h3>Cardiology</h3>
+                    <p>Advanced heart care and cardiovascular surgeries by leading experts.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-brain"></i>
+                    <h3>Neurology</h3>
+                    <p>Comprehensive diagnosis and treatment for neurological disorders.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-bone"></i>
+                    <h3>Orthopedics</h3>
+                    <p>Expert care for bone, joint, and muscle conditions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Virtual Tour Section (Standard Corporate Layout) -->
+    <section id="tour" class="tour-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Virtual Tour</h2>
+                <div class="divider"></div>
+                <p>Take a closer look at our facilities before your visit.</p>
+            </div>
+
+            <div class="tour-wrapper">
+                <div class="tour-tabs">
+                    <button class="tab-btn active" data-target="reception">Main Reception</button>
+                    <button class="tab-btn" data-target="ward">Patient Ward</button>
+                    <button class="tab-btn" data-target="icu">Intensive Care Unit</button>
+                    <button class="tab-btn" data-target="ot">Operating Theater</button>
+                </div>
+                
+                <div class="tour-content">
+                    <div class="tour-pane active" id="reception">
+                        <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=2053&auto=format&fit=crop" alt="Reception">
+                        <div class="tour-info">
+                            <h3>Main Reception</h3>
+                            <p>Our spacious and welcoming reception area is designed to provide a comfortable waiting experience for patients and visitors. Our staff is available 24/7 to assist you.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="tour-pane" id="ward">
+                        <img src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?q=80&w=2073&auto=format&fit=crop" alt="Patient Ward">
+                        <div class="tour-info">
+                            <h3>Patient Ward</h3>
+                            <p>Our patient rooms are equipped with modern amenities, ensuring a restful recovery environment with continuous monitoring by our nursing staff.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="tour-pane" id="icu">
+                        <img src="https://images.unsplash.com/photo-1516549655169-df83a0774514?q=80&w=2070&auto=format&fit=crop" alt="ICU">
+                        <div class="tour-info">
+                            <h3>Intensive Care Unit (ICU)</h3>
+                            <p>The ICU is equipped with state-of-the-art life support systems and provides 1-to-1 patient care for critically ill patients.</p>
+                        </div>
+                    </div>
+
+                    <div class="tour-pane" id="ot">
+                        <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?q=80&w=2080&auto=format&fit=crop" alt="Operating Theater">
+                        <div class="tour-info">
+                            <h3>Operating Theater</h3>
+                            <p>Our surgical suites feature advanced technology and strict sterilization protocols to ensure the highest safety standards during procedures.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <h3><i class="fas fa-plus-square"></i> AFNS Hospital</h3>
+                <p>Providing world-class medical care with compassion and excellence. Your health is our priority.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#departments">Departments</a></li>
+                    <li><a href="#tour">Virtual Tour</a></li>
+                    <li><a href="#">Patient Portal</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact Us</h3>
+                <ul class="contact-list">
+                    <li><i class="fas fa-map-marker-alt"></i> 123 Health Ave, Medical City</li>
+                    <li><i class="fas fa-phone"></i> +1 (800) 123-4567</li>
+                    <li><i class="fas fa-envelope"></i> contact@afnshospital.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 AFNS Hospital. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
